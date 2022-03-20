@@ -1,0 +1,54 @@
+.dotted {
+  border: dotted;
+  border-color: aqua;
+}
+
+.dashed {
+  border: dashed;
+  border-color: aqua;
+}
+
+.solid {
+  border: solid;
+  border-color: aqua;
+}
+
+.double {
+  border: double;
+  border-color: aqua;
+}
+
+.groove {
+  border: groove;
+  border-color: aqua;
+}
+
+.ridge {
+  border: ridge;
+  border-color: aqua;
+}
+
+.inset {
+  border: inset;
+  border-color: aqua;
+}
+
+.outset {
+  border: outset;
+  border-color: aqua;
+}
+
+.none {
+  border: none;
+  border-color: aqua;
+}
+
+.hidden {
+  border: hidden;
+  border-color: aqua;
+}
+
+.mix {
+  border-style: dotted dashed double solid;
+  border-color: aqua;
+}

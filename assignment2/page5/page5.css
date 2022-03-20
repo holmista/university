@@ -1,0 +1,9 @@
+h1 {
+  text-decoration: overline;
+}
+
+h3 {
+  border-bottom: 2px solid black;
+  display: inline-block;
+  line-height: 0.75;
+}

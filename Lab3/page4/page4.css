@@ -1,0 +1,28 @@
+table,
+td {
+  border: 1px solid black;
+  height: 20px;
+}
+
+tbody {
+  width: 100px;
+}
+
+.head {
+  height: 100px;
+}
+
+.bigbox {
+  width: 600px;
+}
+
+.blankmenu {
+  height: 300px;
+  width: 100px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
