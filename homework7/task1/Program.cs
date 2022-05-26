@@ -9,20 +9,21 @@ Product Ketchup = new(5, "Spicy ketchup", new DateTime(2023, 10, 25), "groceries
 
 List<Product> Products = new List<Product>() { sofa, Iphone11, Bread, Blue_Tshirt, Ketchup};
 
-IEnumerable<Product> ExpirationProducts = from prod in Products where prod.Expiration!=null orderby prod.Expiration select prod;
+IEnumerable<Product> ExpirationProducts = from prod in Products where prod.Expiration!=null
+                                          orderby prod.Expiration select prod;
 foreach(Product prod in ExpirationProducts)
 {
     Console.WriteLine($"product name: {prod.Name}, expiration date: {prod.Expiration}");
 }
 
-int ExpirationProductsSum = ExpirationProducts.Where(prod => prod.Expiration != null).Select(prod=>prod.Price).Sum();
+int ExpirationProductsSum = ExpirationProducts.Where(prod => prod.Expiration != null).Select(prod => prod.Price).Sum();
 Console.WriteLine($"total valuation of expiring products: {ExpirationProductsSum}");
 
 var ProductGroups = from prod in Products
                     group prod by prod.Category into g
-                    select new {Category=g.Key, Amount=g.Count(), Sum=g.Sum(prod=>prod.Price)};
+                    select new { Category = g.Key, Amount = g.Count(), Sum = g.Sum(prod => prod.Price) };
 Console.WriteLine("Category    Amount    Sum");
-foreach(var productGroup in ProductGroups)
+foreach (var productGroup in ProductGroups)
 {
     Console.WriteLine($"{productGroup.Category}    {productGroup.Amount}    {productGroup.Sum}");
 }
