@@ -1,0 +1,16 @@
+D:\tornike's codes\c#\uni\csharp-homeworks\quiz2\bin\Debug\quiz2.exe.config
+D:\tornike's codes\c#\uni\csharp-homeworks\quiz2\bin\Debug\quiz2.exe
+D:\tornike's codes\c#\uni\csharp-homeworks\quiz2\bin\Debug\quiz2.pdb
+D:\tornike's codes\c#\uni\csharp-homeworks\quiz2\bin\Debug\EntityFramework.dll
+D:\tornike's codes\c#\uni\csharp-homeworks\quiz2\bin\Debug\EntityFramework.SqlServer.dll
+D:\tornike's codes\c#\uni\csharp-homeworks\quiz2\bin\Debug\EntityFramework.xml
+D:\tornike's codes\c#\uni\csharp-homeworks\quiz2\bin\Debug\EntityFramework.SqlServer.xml
+D:\tornike's codes\c#\uni\csharp-homeworks\quiz2\obj\Debug\quiz2.csproj.AssemblyReference.cache
+D:\tornike's codes\c#\uni\csharp-homeworks\quiz2\obj\Debug\quiz2.csproj.SuggestedBindingRedirects.cache
+D:\tornike's codes\c#\uni\csharp-homeworks\quiz2\obj\Debug\quiz2.Properties.Resources.resources
+D:\tornike's codes\c#\uni\csharp-homeworks\quiz2\obj\Debug\quiz2.csproj.GenerateResource.cache
+D:\tornike's codes\c#\uni\csharp-homeworks\quiz2\obj\Debug\quiz2.csproj.CoreCompileInputs.cache
+D:\tornike's codes\c#\uni\csharp-homeworks\quiz2\obj\Debug\quiz2.csproj.CopyComplete
+D:\tornike's codes\c#\uni\csharp-homeworks\quiz2\obj\Debug\quiz2.exe
+D:\tornike's codes\c#\uni\csharp-homeworks\quiz2\obj\Debug\quiz2.pdb
+D:\tornike's codes\c#\uni\csharp-homeworks\quiz2\obj\Debug\quiz2.Form1.resources
