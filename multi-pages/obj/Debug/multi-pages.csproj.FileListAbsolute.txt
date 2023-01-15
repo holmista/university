@@ -1,0 +1,16 @@
+D:\tornike's codes\c#\uni\csharp-homeworks\multi-pages\bin\Debug\multi-pages.exe.config
+D:\tornike's codes\c#\uni\csharp-homeworks\multi-pages\bin\Debug\multi-pages.exe
+D:\tornike's codes\c#\uni\csharp-homeworks\multi-pages\bin\Debug\multi-pages.pdb
+D:\tornike's codes\c#\uni\csharp-homeworks\multi-pages\obj\Debug\multi-pages.csproj.AssemblyReference.cache
+D:\tornike's codes\c#\uni\csharp-homeworks\multi-pages\obj\Debug\multi-pages.csproj.SuggestedBindingRedirects.cache
+D:\tornike's codes\c#\uni\csharp-homeworks\multi-pages\obj\Debug\multi_pages.Form1.resources
+D:\tornike's codes\c#\uni\csharp-homeworks\multi-pages\obj\Debug\multi_pages.Properties.Resources.resources
+D:\tornike's codes\c#\uni\csharp-homeworks\multi-pages\obj\Debug\multi-pages.csproj.GenerateResource.cache
+D:\tornike's codes\c#\uni\csharp-homeworks\multi-pages\obj\Debug\multi-pages.csproj.CoreCompileInputs.cache
+D:\tornike's codes\c#\uni\csharp-homeworks\multi-pages\obj\Debug\multi-pages.exe
+D:\tornike's codes\c#\uni\csharp-homeworks\multi-pages\obj\Debug\multi-pages.pdb
+D:\tornike's codes\c#\uni\csharp-homeworks\multi-pages\bin\Debug\EntityFramework.dll
+D:\tornike's codes\c#\uni\csharp-homeworks\multi-pages\bin\Debug\EntityFramework.SqlServer.dll
+D:\tornike's codes\c#\uni\csharp-homeworks\multi-pages\bin\Debug\EntityFramework.xml
+D:\tornike's codes\c#\uni\csharp-homeworks\multi-pages\bin\Debug\EntityFramework.SqlServer.xml
+D:\tornike's codes\c#\uni\csharp-homeworks\multi-pages\obj\Debug\multi-pages.csproj.CopyComplete
