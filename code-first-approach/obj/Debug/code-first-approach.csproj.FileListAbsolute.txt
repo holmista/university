@@ -1,0 +1,16 @@
+D:\tornike's codes\c#\uni\csharp-homeworks\code-first-approach\bin\Debug\code-first-approach.exe.config
+D:\tornike's codes\c#\uni\csharp-homeworks\code-first-approach\bin\Debug\code-first-approach.exe
+D:\tornike's codes\c#\uni\csharp-homeworks\code-first-approach\bin\Debug\code-first-approach.pdb
+D:\tornike's codes\c#\uni\csharp-homeworks\code-first-approach\bin\Debug\EntityFramework.dll
+D:\tornike's codes\c#\uni\csharp-homeworks\code-first-approach\bin\Debug\EntityFramework.SqlServer.dll
+D:\tornike's codes\c#\uni\csharp-homeworks\code-first-approach\bin\Debug\EntityFramework.xml
+D:\tornike's codes\c#\uni\csharp-homeworks\code-first-approach\bin\Debug\EntityFramework.SqlServer.xml
+D:\tornike's codes\c#\uni\csharp-homeworks\code-first-approach\obj\Debug\code-first-approach.csproj.AssemblyReference.cache
+D:\tornike's codes\c#\uni\csharp-homeworks\code-first-approach\obj\Debug\code-first-approach.csproj.SuggestedBindingRedirects.cache
+D:\tornike's codes\c#\uni\csharp-homeworks\code-first-approach\obj\Debug\code_first_approach.Form1.resources
+D:\tornike's codes\c#\uni\csharp-homeworks\code-first-approach\obj\Debug\code_first_approach.Properties.Resources.resources
+D:\tornike's codes\c#\uni\csharp-homeworks\code-first-approach\obj\Debug\code-first-approach.csproj.GenerateResource.cache
+D:\tornike's codes\c#\uni\csharp-homeworks\code-first-approach\obj\Debug\code-first-approach.csproj.CoreCompileInputs.cache
+D:\tornike's codes\c#\uni\csharp-homeworks\code-first-approach\obj\Debug\code-first-approach.csproj.CopyComplete
+D:\tornike's codes\c#\uni\csharp-homeworks\code-first-approach\obj\Debug\code-first-approach.exe
+D:\tornike's codes\c#\uni\csharp-homeworks\code-first-approach\obj\Debug\code-first-approach.pdb
