@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import useDebounce from "./hooks/useDebounce";
 import useFetch from "./hooks/useFetch";
 import LoadingPlaceholder from "./components/LoadingPlaceholder";
@@ -11,9 +11,10 @@ interface IProduct extends IProductCardProps {
 }
 
 function App() {
+  const animateRef = useRef<HTMLDivElement>(null);
   const [search, setSearch] = useState("");
   const [products, setProducts] = useState<IProduct[]>([]);
-  const [parent] = useAutoAnimate({ duration: 200 });
+  const [parent] = useAutoAnimate<HTMLDivElement>({ duration: 200 });
   const debouncedSearch = useDebounce(search, 500);
   const { data, loading, error } = useFetch(
     "https://dummyjson.com/products/search?q="
