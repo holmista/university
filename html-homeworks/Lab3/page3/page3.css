@@ -1,0 +1,16 @@
+table,
+td {
+  border: 1px solid black;
+  height: 40px;
+  width: 1200px;
+}
+
+thead {
+  height: 60px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

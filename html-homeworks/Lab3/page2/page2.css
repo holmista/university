@@ -1,0 +1,23 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  width: 200px;
+}
+
+.tallrow {
+  height: 40px;
+}
+.row4 {
+  background-color: green;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

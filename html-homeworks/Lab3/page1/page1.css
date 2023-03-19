@@ -1,0 +1,39 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.cell2 {
+  background-color: green;
+}
+
+.cell3 {
+  background-color: red;
+}
+
+.cell4 {
+  background-color: blue;
+}
+
+.cell5 {
+  border-bottom: 1px solid white;
+  background-color: white;
+}
+
+.cell6 {
+  background-color: white;
+}
+
+.parent {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+}
+
+* {
+  margin: 0;
+}

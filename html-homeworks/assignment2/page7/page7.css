@@ -1,0 +1,24 @@
+div {
+  border-radius: 20px;
+  width: 200px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.border {
+  border: solid;
+}
+
+.photo {
+  background-image: url("./lizard.jpg");
+  background-position: 200px 300px;
+  color: white;
+}
+
+p {
+  padding-left: 30px;
+}
