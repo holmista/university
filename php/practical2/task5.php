@@ -27,7 +27,6 @@ function validateFieldsExist(array $data){
         $error;
         $data = $_POST;
         $success = false;
-        // var_dump($data);
         try{
             validateFieldsExist($_POST);
             $error = null;
