@@ -1,0 +1,2 @@
+{"name":"tornike","email":"t@b.com","password":"password"}
+{"name":"tornike","email":"t@b.com","password":"password"}
