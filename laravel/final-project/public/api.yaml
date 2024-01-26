@@ -1,0 +1,139 @@
+openapi: 3.0.0
+info:
+  title: Food Delivery API
+  version: 1.0.0
+paths:
+  /orders:
+    get:
+      summary: List all orders
+      parameters:
+        - name: min_total
+          in: query
+          description: Minimum total amount for filtering orders
+          required: false
+          schema:
+            type: integer
+            format: int64
+      responses:
+        "200":
+          description: An array of orders, optionally filtered by minimum total amount
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Order"
+    post:
+      summary: Create a new order
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Order"
+      responses:
+        "201":
+          description: New order created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Order"
+  /orders/{order}:
+    get:
+      summary: Get a specific order
+      parameters:
+        - name: order
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Details of a specific order
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Order"
+  /orders/user/{user}:
+    get:
+      summary: Get orders for a specific user
+      parameters:
+        - name: user
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Array of orders for a specific user
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Order"
+  /order-items:
+    post:
+      summary: Create a new order item
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/OrderItem"
+      responses:
+        "201":
+          description: New order item created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/OrderItem"
+  /complaints:
+    post:
+      summary: Create a new complaint
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Complaint"
+      responses:
+        "201":
+          description: New complaint created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Complaint"
+components:
+  schemas:
+    Order:
+      type: object
+      properties:
+        orderer_id:
+          type: string
+        courier_id:
+          type: string
+        status:
+          type: string
+    OrderItem:
+      type: object
+      properties:
+        order_id:
+          type: string
+        dish_id:
+          type: string
+        amount:
+          type: integer
+    Complaint:
+      type: object
+      properties:
+        complainer_id:
+          type: string
+        complainer_type:
+          type: string
+        complainee_id:
+          type: string
+        complainee_type:
+          type: string
+        content:
+          type: string
