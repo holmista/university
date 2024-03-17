@@ -1,0 +1,8 @@
+<input
+  type="text"
+  [(ngModel)]="searchText"
+  placeholder="Add a new task inside {{ category?.name }} category"
+  (input)="onSearch($event)"
+  class="searchbar"
+  (keydown.enter)="onEnterPressed()"
+/>

@@ -1,0 +1,29 @@
+<div class="main-wrapper">
+  <app-sidebar
+    [items]="categories"
+    [selectedItemId]="selectedCategory.id"
+    (select)="onCategorySelect($event)"
+  />
+  <div class="list-wrapper">
+    <h1>All Tasks</h1>
+    <div>
+      <searchbar
+        (search)="onSearch($event)"
+        [category]="selectedCategory"
+        (addItem)="addItem()"
+      />
+    </div>
+    <div>
+      <list-item
+        *ngFor="let item of filteredItems"
+        [title]="item.title"
+        [category]="item.category.name"
+        [isDone]="item.isDone"
+        [id]="item.id"
+        (removeItem)="onRemoveItem($event)"
+        (toggleItem)="onToggleItem($event)"
+      >
+      </list-item>
+    </div>
+  </div>
+</div>

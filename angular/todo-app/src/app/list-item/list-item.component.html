@@ -1,0 +1,6 @@
+<div class="task-item">
+  <input type="checkbox" [checked]="isDone" (click)="toggle(id)" />
+  <span class="title">{{ title }}</span>
+  <span class="category">{{ category }}</span>
+  <img src="assets/trash-icon.svg" (click)="remove(id)" />
+</div>
