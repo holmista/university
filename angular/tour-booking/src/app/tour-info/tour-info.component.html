@@ -1,0 +1,46 @@
+<div class="package-details">
+  <h2>{{tour.location}}</h2>
+  <p class="price">{{tour.price}} $ <span>/ Per Couple</span></p>
+  <div class="rating">
+    {{ '★'.repeat(tour.rating) }} ({{ tour.reviewsAmount }} reviews)
+  </div>
+  <p class="description">{{tour.description}}</p>
+
+  <div class="details">
+    <div>
+      <strong>Destination</strong>
+      <span>: {{tour.destination}}</span>
+    </div>
+    <div>
+      <strong>Departure</strong>
+      <span>: {{tour.departure}}</span>
+    </div>
+    <div>
+      <strong>Departure Time</strong>
+      <span>: Approximately {{tour.departureTime.toLocaleTimeString()}}</span>
+    </div>
+    <div>
+      <strong>Return Time</strong>
+      <span>: Approximately {{tour.returnTime.toLocaleTimeString()}}</span>
+    </div>
+    <div>
+      <strong>Dress Code</strong>
+      <span>: {{tour.dressCode}}</span>
+    </div>
+  </div>
+
+  <div class="included-excluded">
+    <div class="not-included">
+      <strong>Not Included</strong>
+      <ul>
+        <li *ngFor="let notIncludedItem of tour.notIncluded">{{notIncludedItem}}</li>
+      </ul>
+    </div>
+    <div class="included">
+      <strong>Included</strong>
+      <ul>
+        <li *ngFor="let includedItem of tour.included">{{includedItem}}</li>
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,47 @@
+.package-details {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.price span {
+  font-weight: normal;
+}
+
+.rating {
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.description {
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.details div {
+  margin-bottom: 5px;
+}
+
+.included-excluded {
+  display: flex;
+}
+
+.included-excluded > div {
+  flex: 1;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 5px;
+}

@@ -1,0 +1,32 @@
+<div class="plan-your-trip">
+  <h2>Plan Your Trip</h2>
+
+  <div class="search-fields">
+    <div class="search-tour">
+      <label for="search-tour">Search Tour</label>
+      <input [(ngModel)]="searchTour" type="text" id="search-tour" placeholder="Search Tour">
+    </div>
+
+    <div class="where-to">
+      <label for="where-to">Where To?</label>
+      <input [(ngModel)]="whereTo" type="text" id="where-to" placeholder="Where To?">
+    </div>
+
+    <div class="date">
+      <label for="date">Date</label>
+      <input [(ngModel)]="date" type="date" id="date">
+    </div>
+  </div>
+
+  <div class="price-filter">
+    <p>Filter By Price</p>
+    <div class="price-range">
+      <label for="price_from">Price from</label>
+      <input [(ngModel)]="priceFrom" type="number" id="price_from">
+      <label for="price_to">Price to</label>
+      <input [(ngModel)]="priceTo" type="number" id="price_to">
+    </div>
+  </div>
+
+  <button (click)="doSearch()" class="search">Search</button>
+</div>

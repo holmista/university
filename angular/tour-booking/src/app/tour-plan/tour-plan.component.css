@@ -1,0 +1,47 @@
+
+
+.day {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.day-number {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #ff0000;
+}
+
+.day-details {
+  flex-grow: 1;
+}
+
+.day-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.day-description {
+  margin-bottom: 10px;
+}
+
+.day-items {
+  list-style-type: disc;
+  padding-left: 0;
+}
+
+.day-items li {
+  margin-bottom: 5px;
+}
+
+.item-title {
+  font-weight: bold;
+}
+
+.item-details {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 5px;
+}

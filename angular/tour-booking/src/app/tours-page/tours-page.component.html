@@ -1,0 +1,9 @@
+<div class="page-wrapper">
+  <div class="card-layout">
+    <app-tour-preview *ngFor="let tourPreview of tourPreviews" [tour]="tourPreview">
+    </app-tour-preview>
+  </div>
+  <app-plan-your-trip (searchToursEvent)="handleSearch($event)"></app-plan-your-trip>
+</div>
+
+

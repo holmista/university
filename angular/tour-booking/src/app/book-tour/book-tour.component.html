@@ -1,0 +1,38 @@
+<div class="book-tour">
+  <h2>Book This Tour</h2>
+  <form class="bookingForm" [formGroup]="bookingForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" formControlName="name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" formControlName="email">
+    </div>
+    <div class="form-group">
+      <label for="confirmEmail">Confirm Email</label>
+      <input type="email" id="confirm-email" name="confirmEmail" formControlName="confirmEmail">
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" formControlName="phone">
+    </div>
+    <div class="form-group">
+      <label for="date">Date</label>
+      <input type="date" id="date" name="date" formControlName="date">
+    </div>
+    <div class="form-group">
+      <label for="numberOfTickets">Number of Ticket</label>
+      <input type="number" id="number-of-ticket" name="numberOfTickets" formControlName="numberOfTickets">
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" formControlName="message"></textarea>
+    </div>
+    <p *ngIf="bookingForm.touched && !bookingForm.valid">The form has errors</p>
+    <div class="form-actions">
+      <button type="button" class="check-availability">Check Availability</button>
+      <button type="submit" class="book-now">Book Now</button>
+    </div>
+  </form>
+</div>

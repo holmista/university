@@ -1,0 +1,14 @@
+<div class="tour-plan">
+  <div class="day" *ngFor="let day of tour.tourPlan">
+    <div class="day-number">{{ day.dayNumber }}</div>
+    <div class="day-details">
+      <h3 class="day-title">{{ day.dayTitle }}</h3>
+      <p class="day-description">{{ day.dayDescription }}</p>
+      <ol class="day-items">
+        <li *ngFor="let item of day.dayBulletPoints">
+          <span class="item-title">{{ item }}</span>
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>

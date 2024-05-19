@@ -1,0 +1,11 @@
+.card-layout {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 700px;
+  gap: 30px;
+}
+
+.page-wrapper{
+  display: flex;
+  justify-content: center;
+}

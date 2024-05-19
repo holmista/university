@@ -1,0 +1,25 @@
+<div class="card" (click)="handleTourPreviewClick(tour.id)">
+  <img [src]="tour.previewPictureUrl" alt="{{tour.location}}" class="card-img">
+  <div class="card-body">
+    <div class="card-header">
+      <div class="card-date">
+        <i class="far fa-calendar-alt"></i>
+        {{tour.startDate.toDateString()}}
+      </div>
+      <div class="card-people">
+        <i class="fas fa-users"></i>
+        {{tour.amountOfRegsteredPeople}} people
+      </div>
+    </div>
+    <h2 class="card-title">{{tour.location}}</h2>
+    <p class="card-text">
+      {{tour.excerpt}}
+    </p>
+    <div class="card-footer">
+      <span class="card-price">${{tour.price}}</span>
+      <span class="card-rating">
+        <i class="fas fa-star">{{tour.rating}}</i>
+      </span>
+    </div>
+  </div>
+</div>
