@@ -1,0 +1,18 @@
+<!-- user-registration-form.component.html -->
+<div style="display: flex; justify-content: center;">
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" style="display: flex; flex-direction: column; width: 500px; margin-top: 100px;">
+    <mat-form-field>
+      <mat-label>Email</mat-label>
+      <input matInput type="email" formControlName="email" required>
+      <mat-error *ngIf="loginForm.get('email')?.invalid">Please enter a valid email address</mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Password</mat-label>
+      <input matInput type="text" formControlName="password" required>
+      <mat-error *ngIf="loginForm.get('password')?.invalid">Please enter your name</mat-error>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="loginForm.invalid">Log In</button>
+  </form>
+</div>

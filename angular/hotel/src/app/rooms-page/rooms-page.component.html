@@ -1,0 +1,12 @@
+<mat-grid-list cols="3" rowHeight="1:1.5">
+  <mat-grid-tile *ngFor="let room of rooms">
+    <mat-card [routerLink]="['/room', room.roomTypeId]">
+      <div class="card-image">
+        <img mat-card-image [src]="room.coverImage" alt="Photo">
+      </div>
+      <mat-card-content>
+        <p>{{ room.description }}</p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>

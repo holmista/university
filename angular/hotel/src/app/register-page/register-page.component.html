@@ -1,0 +1,39 @@
+<!-- user-registration-form.component.html -->
+<div style="display: flex; justify-content: center;">
+  <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()" style="display: flex; flex-direction: column; width: 500px; margin-top: 100px;">
+    <mat-form-field>
+      <mat-label>Email</mat-label>
+      <input matInput type="email" formControlName="email" required>
+      <mat-error *ngIf="registrationForm.get('email')?.invalid">Please enter a valid email address</mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Name</mat-label>
+      <input matInput type="text" formControlName="name" required>
+      <mat-error *ngIf="registrationForm.get('name')?.invalid">Please enter your name</mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Password</mat-label>
+      <input matInput type="password" formControlName="password" required>
+      <mat-error *ngIf="registrationForm.get('password')?.invalid">Please enter a password</mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Phone Number</mat-label>
+      <input matInput type="tel" formControlName="phoneNumber" required>
+      <mat-error *ngIf="registrationForm.get('phoneNumber')?.invalid">Please enter a valid phone number</mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Gender</mat-label>
+      <mat-select formControlName="gender" required>
+        <mat-option value="0">Male</mat-option>
+        <mat-option value="1">Female</mat-option>
+      </mat-select>
+      <mat-error *ngIf="registrationForm.get('gender')?.invalid">Please select your gender</mat-error>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="registrationForm.invalid">Register</button>
+  </form>
+</div>
